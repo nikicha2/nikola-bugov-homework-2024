@@ -1,0 +1,5 @@
+all: qubic.out factoriel.out
+qubic.out: util.h util.c
+factoriel.out: util.h util.c
+util.h:
+gcc -c util.h
